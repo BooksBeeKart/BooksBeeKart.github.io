@@ -1,14 +1,85 @@
-<html></html>
+<html>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Website with Link Buttons</title>
+    <title>Book Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        h2 {
+            text-align: center;
+            color: #555;
+        }
+        
+        .book {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .book img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        .book h3 {
+            color: #333;
+        }
+        
+        .book p {
+            color: #666;
+        }
+        
+        .book a {
+            display: block;
+            text-align: center;
+            color: #fff;
+            background-color: #007bff;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        
+        .book a:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
+    <h1>Welcome to Our Book Website</h1>
     
-    <a href="https://www.example.com" target="_blank"><button>Button 1</button></a>
-    <a href="https://www.example.com" target="_blank"><button>Button 2</button></a>
-    <a href="https://www.example.com" target="_blank"><button>Button 3</button></a>
+    <h2>Featured Books</h2>
+    <div class="book">
+        <img src="book1.jpg" alt="Book 1">
+        <h3>Book Title 1</h3>
+        <p>Author: Author Name</p>
+        <p>Description: Brief description of the book.</p>
+        <a href="book1.html">Read More</a>
+    </div>
+    
+    <div class="book">
+        <img src="book2.jpg" alt="Book 2">
+        <h3>Book Title 2</h3>
+        <p>Author: Author Name</p>
+        <p>Description: Brief description of the book.</p>
+        <a href="book2.html">Read More</a>
+    </div>
+    
+    <!-- Add more book sections as needed -->
 </body>
 </html>
